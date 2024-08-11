@@ -3,7 +3,8 @@
 namespace WpHelloWorld;
 
 class HelloWorld {
-    public function render() {
-        echo '<h1>Hello World</h1>';
+    // Add a name arg to the render and echo it
+    public function render($name) {
+        echo '<h1>Hello ' . $name . '</h1>';
     }
 }
