@@ -1,0 +1,11 @@
+{
+  "name": "ryandejaegher/wp-hello-world",
+  "description": "A simple WordPress package that renders a Hello World message.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "WpHelloWorld\\": "src/"
+    }
+  },
+  "require": {}
+}
